@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<h2>#1- form, control select</h2>
+<div class="container">
+<form>
+<div class="form-group">          
+<label for="control1">Seleccione un pais</label> 
+<select class="form-control" id="control1" name="control1"> 
+<option>Puerto Rico</option> 
+<option>Republica Dominicana</option>
+<option>España</option> 
+<option>Estados Unidos</option> 
+<option>Canada</option> 
+</select> 
+</div>
+
+<div class="form-group">
+<label for="control2">Seleccione varios paises</label> 
+<select multiple class="form-control" id="control2" name="control2"> 
+<option>Puerto Rico</option> 
+<option>Republica Dominicana</option>
+<option>España</option> 
+<option>Estados Unidos</option> 
+<option>Canada</option>       
+</select>      
+</div> 
+
+<button type="submit"class="btn btn-default">Enviar</button> 
+</form>    
+</div>
+
+<br>
+
+<h2>#2- form, formulario horizontal</h2>
+<div class="container">    
+
+<form>
+<div class="form-group row">
+<label for="usuario" class="col-lg-3 col-form-label">Introduzca su nombre de usuario:</label>
+<div class="col-lg-9">
+<input type="text" class="form-control" id="usuario">
+</div>
+</div>
+
+<div class="form-group row">
+<label for="clave" class="col-lg-3 col-form-label">Introduzca su clave:</label>
+<div class="col-lg-9">
+<input type="password" class="form-control" id="clave">
+</div>
+</div>
+
+<div class="form-group row">
+<div class="offset-lg-3 col-lg-9">
+<button type="submit" class="btn btn-default">Introducir</button>
+</div> 
+</div>
+</form>         
+</div>       
+
+<br>
+
+<h2>#3- form, formulario en una linea</h2>
+
+<div class="container">
+</div>
+<label for="mail" class="mr-sm-2">Email:</label>
+<input type="email" class="form-control mr-sm-2" id="mail">
+<div class="form-check">
+<label class="form-check-label">
+<input type="checkbox" class="form-check-input mr-sm-2"> Acepto los terminos
+</label>
+</div>
+
+<button type="submit" class="btn btn-default ml-sm-2">Entrar</button>
+</div> 
+
+
+<h2>#4- form, tamano de los controles de formulario</h2>
+
+<div class="container">
+<p><strong>Chiquito</strong></p>
+<form>
+<div class="form-group"> 
+<label for="nombre">Introduzca su nombre su nombre:</label>
+<input type="text" class="form-control form-control-sm" id="nombre2" name="nombre">
+</div> 
+<button type="submit" class="btn btn-default">Enviar</button>       
+</form>
+
+<br>
+
+<p><strong>Grande</strong></p>
+<form>
+<div class="form-group"> 
+<label for="clave">Introduzca su clave:</label>
+<input type="password" class="form-control form-control-lg" id="clave" name="clave">
+</div> 
+<button type="submit" class="btn btn-default">Enviar</button>       
+</form>
+
+<p><strong>Normal</strong></p>
+<form>
+<div class="form-group"> 
+<label for="Email">Introduzca su email:</label>
+<input type="text" class="form-control" id="Email" name="Email">
+</div> 
+<button type="submit" class="btn btn-default">Enviar</button>       
+</form>    
+</div> 
+
+<h2>#5- form, texto de ayuda de un control</h2>
+
+<div class="container">
+
+<form>
+<div class="form-group"> 
+<label for="nombre">Introzca su nombre de usuario:</label>
+<input type="text" class="form-control" id="nombre" name="nombre">
+<small class"form-text text-muted">No ingrese espacios en blanco.</small>        
+</div> 
+<div class="form-group"> 
+<label for="clave">Introduzca su clave:</label>
+<input type="password" class="form-control" id="clave" name="clave">
+<small class"form-text text-muted">Debe tener al menos 8 caracteres, el cual algunos deben ser numeros o signos(5,4,3,-,*,#)</small>
+</div> 
+<button type="submit" class="btn btn-default">Enviar</button>       
+</form>
+</div> 
+
+<h2>#6- form, control y grupo de controles html deshabilitados</h2>
+
+<div class="container">
+
+<form>
+<fieldset disabled> 
+<div class="form-group">
+<label for="usuario">Introduzca su nombre de usuario:</label>
+<input type="text" class="form-control" id="usuario" name="usuario">
+</div>
+
+<div class="form-group">
+<label for="clave">Introduzca su clave:</label>
+<input type="password" class="form-control" id="clave" name="clave">
+</div>
+</fieldset>
+
+<div class="form-check">
+<input disabled class="form-check-input" type="checkbox" value="" id="checkbox1" name="checkbox1">
+<label class="form-check-label" for="checkbox1">
+Acepto los terminos y condiciones
+</label>
+</div>        
+<button type="submit" class="btn btn-default">Entrar</button>       
+</form> 
+</div> 
+
+<br>
+
+<h2>#7- button, estilos</h2>
+
+<div class="container">
+<h3>Diccionario</h3>
+<form>
+<div class="form-group">
+<button type="submit" class="btn-outline-primary">
+fuente : Lugar donde brota una corriente de agua, ya sea del suelo, de entre las rocas, de un caño o de una llave.</button>       
+</div> 
+<div class="form-group">
+<button type="submit" class="btn-outline-secondary">
+profilaxis : Conjunto de medidas que se toman para proteger o preservar de las enfermedades.</button>       
+</div>  
+
+<div class="form-group">
+<button type="submit" class="btn-outline-success">
+pulcritud : Manera pulcra, limpia y cuidada de hacer algo.</button>       
+</div>
+
+<div class="form-group">
+<button type="submit" class="btn-outline-info">
+limpieza : limpieza de sangre Cualidad de no tener antepasados penados por algun delito, de religion hereje, o de raza considerada deshonrosa, que antiguamente se exigia para determinados fines.</button>       
+</div>
+
+<div class="form-group">
+<button type="submit" class="btn-outline-warning">
+explícito : Que está dicho o especificado de forma clara y detallada, sin insinuar ni dar nada por sabido o conocido.</button>       
+</div> 
+
+<div class="form-group">
+<button type="submit" class="btn-outlaine-danger">
+determinado : Que es uno en particular o con características bien definidas.</button>       
+</div>
+
+<div class="form-group">
+<button type="submit" class="btn-outline-dark">
+hontanar :Lugar en el que nacen manantiales.</button>       
+</div>  
+
+<div class="form-group">
+<button type="submit" class="btn btn-light">
+venero : Fuente, origen o principio de algo.</button>       
+</div> 
+
+<div class="form-group">
+<button type="submit" class="btn btn-link">
+manantial : Corriente de agua que mana del suelo o de entre las rocas de forma natural.</button>       
+</div> 
+</form>
+</div> 
+
+<h2>#8- button, tamaño</h2>
+
+<div class="container">
+
+<form>
+<H3>btn-sm :</H3>
+<button type="submit" class="btn btn-primary btn-sm">tamaño pequeño</button>  
+
+<br>
+<H3>btn-lg :</H3>
+<button type="submit" class="btn btn-primary btn-lg">tamaño grande</button>  
+
+<br>
+<h3>normal:</h3>
+<button type="submit" class="btn btn-primary">tamaño normal</button>
+
+<br>
+<H3>btn-sm btn-block:</H3>     
+<button type="submit" class="btn btn-primary btn-sm btn-block">tamaño pequeño</button>
+<br>
+
+<h3>btn-lg btn-block:</h3>
+<button type="submit" class="btn btn-primary btn-lg btn-block">tamaño grande</button>
+<br>
+
+<h3>btn-block:</h3>
+<button type="submit" class="btn btn-primary btn-block">tamaño normal</button>  
+
+</form>
+</div> 
+</body>
+</html>
