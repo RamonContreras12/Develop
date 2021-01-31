@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<h2>#1- button, tamano</h2>
+
+<div class="container">
+
+<form>
+<H3>btn-sm :</H3>
+<button type="submit" class="btn btn-primary btn-sm">tamano pequeno</button>  
+
+<br>
+<H3>btn-lg :</H3>
+<button type="submit" class="btn btn-primary btn-lg">tamano grande</button>  
+
+<br>
+<h3>normal:</h3>
+<button type="submit" class="btn btn-primary">tamano normal</button>
+
+<br>
+<H3>btn-sm btn-block:</H3>     
+<button type="submit" class="btn btn-primary btn-sm btn-block">tamano pequeno</button>
+<br>
+
+<h3>btn-lg btn-block:</h3>
+<button type="submit" class="btn btn-primary btn-lg btn-block">tamano grande</button>
+<br>
+
+<h3>btn-block:</h3>
+<button type="submit" class="btn btn-primary btn-block">tamano normal</button>  
+
+</form>
+</div> 
+
+<br>
+
+<h2>#2- button, desactivo</h2>
+
+<div class="container">
+<form>
+<button type="submit" class="btn btn-primary btn-lg">.....#p#.....</button>       
+<button type="submit" class="btn btn-primary btn-lg" disabled="disabled">.....#p#.....</button>       
+<button type="submit" class="btn btn-primary btn-lg" disabled="disabled">.....#p#.....</button>       
+<button type="submit" class="btn btn-primary btn-lg">.....#p#.....</button>       
+</form>
+</div>
+
+<br>
+
+<h2>#3- button, grupo de botones, barra de herramientas, tamanos y orientacion</h2>
+
+<div class="container">
+    
+<div class="btn-group">
+<button type="button" class="btn btn-primary">p</button>
+<button type="button" class="btn btn-primary">p</button>
+<button type="button" class="btn btn-primary">p</button>
+</div>
+<hr>
+<div class="btn-toolbar">
+<div class="btn-group mr-3">
+<button type="button" class="btn btn-primary">.....p.....</button>
+<button type="button" class="btn btn-primary">.....p.....</button>
+<button type="button" class="btn btn-primary">.....p.....</button>
+<button type="button" class="btn btn-primary">.....p.....</button>
+<button type="button" class="btn btn-primary">.....p.....</button>
+</div> 
+<div class="btn-group">
+<button type="button" class="btn btn-primary">.....#p#.....</button>
+<button type="button" class="btn btn-primary">.....#p#.....</button>
+<button type="button" class="btn btn-primary">.....#p#.....</button>
+<button type="button" class="btn btn-primary">.....#p#.....</button>
+<button type="button" class="btn btn-primary">.....#p#.....</button>
+<button type="button" class="btn btn-primary">.....#p#.....</button>
+</div>
+</div>
+</div>
+
+<h2>#4- Tipografia</h2>
+
+<div class="container">
+<h1>....p1....</h1> 
+<h2>....p2....</h2>
+<h3>....p3....</h3>
+<h4>....p4....</h4>
+<h5>....p5....</h5>
+<h6>....p6....</h6>
+
+<hr>
+
+<h3>Display</h3>
+<h1 class="display-1">....p... 1</h1> 
+<h1 class="display-2">...p... 2</h1> 
+<h1 class="display-3">....p.... 3</h1> 
+<h1 class="display-4">....p....... 4</h1>             
+</div>
+
+<hr>
+
+<h3>Small</h3>
+<h1>...........<small>(p)</small></h1> 
+<h2>...........<small>(p)</small></h2>
+<h3>...........<small>(p)</small></h3>
+<h4>...........<small>(p)</small></h4>
+<h5>...........<small>(p)</small></h5>
+<h6>...........<small>(p)</small></h6>
+</div>
+
+<br>
+
+<h2>#5- Tipografia, listas</h2>
+
+<div class="container">
+<p>lista ordenada</p>
+<ol> 
+<li>...p...</li>
+<li>...p...</li>
+<li>...p...</li>
+<li>...p...</li>
+</ol>
+</div>
+
+<hr>
+
+<p>Ejemplo de lista no ordenada</p>
+<ul> 
+<li>...p...</li>
+<li>...p...</li>
+<li>...p...</li>
+<li>...p...</li>
+</ul>
+
+<hr>
+
+<p>lista no ordenada sin estilo</p>
+<ul class="list-unstyled"> 
+<li>Asi es como sale</li>
+<li>Asi es como sale</li>
+<li>Asi es como sale</li>
+<li>Asi es como sale</li>
+</ul>
+
+<hr>
+
+<p>lista no ordenada en linea</p>
+<ul class="list-inline"> 
+<li class="list-inline-item">Asi es como sale</li>
+<li class="list-inline-item">Asi es como sale</li>
+<li class="list-inline-item">Asi es como sale</li>
+<li class="list-inline-item">Asi es como sale</li>
+</ul>
+
+<hr>
+
+<div class="container">
+<p>Ejemplo de lista de definicion</p>
+<dl> 
+<dt>(###.....p.......###)</dt>
+<dd>Asi es como sale</dd>
+<dt>###.....p.......###</dt>
+<dd>Asi es como sale</dd>
+<dt>###.....p.......###</dt>
+<dd>Asi es como sale</dd>
+</dl>
+
+<hr>
+
+<p>Ejemplo de lista de definicion horizontal</p>
+<dl class="row"> 
+<dt class="col-sm-3">Asi es como sale</dt>
+<dd class="col-sm-9">(###.....p.......###)</dd>
+<dt class="col-sm-3">Asi es como sale</dt>
+<dd class="col-sm-9">(###.....p.......###)</dd>
+<dt class="col-sm-3">Asi es como sale</dt>
+<dd class="col-sm-9">(###.....p.......###)</dd>
+</dl>
+
+<hr>
+
+<h2>#6- TipografIa, abreviaturas e iniciales</h2>
+
+<div class="container">
+
+<h3>Abreviatura</h3>
+<p>lalalalala<abbr title="ENGLISH">HBY</abbr></p>
+<hr>
+<p>lololololo<abbr title="ENGLISH" class="initialism">HOW ABOUT YOU</abbr></p>
+</div>
+
+<hr>
+
+<h2>#7- Tipografia, Codigo y bloques de codigo</h2>
+
+<div class="container">
+<h4> HTML code</h4>
+<p>.............-p..........<code>#YEY#FUDTYE$"</code></p>
+</div>
+
+<hr>
+
+<h4>Elemento HTML pre</h4>
+<pre>
+(####__pppp__####)
+</pre> 
+
+<hr>
+
+<h4> clase .pre-scrollable</h4>
+<pre class="pre-scrollable">
+
+#.......ppppp.......#
+.......ppppp..#.....
+...#....ppppp...#....
+.......ppppp...#....
+....#...ppppp.......
+.......ppppp.....#..
+....#...ppppp....#...
+
+</pre> 
+
+<hr>
+
+<h2>#8- Tipografia, Clases para el alineado, justificado, transformacion de texto etc.</h2>
+
+<p class="text-left">nos fuimos pa la izquierda.</p>
+
+<hr>
+<p class="text-right">nos fuimos pa la derecha.</p> 
+
+<hr>
+<p class="text-center">Nos fuimos a la central.</p>
+
+<hr>
+<p class="text-justify">
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+Andamos justificados.
+</p>
+
+<hr>
+<p class="small">Andamo enano.</p>  
+
+<hr>
+<p class="lead">Tamo destacao.</p>
+
+<hr>
+<p class="text-nowrap">
+Hay que ajustarse
+Hay que ajustarse
+Hay que ajustarse
+Hay que ajustarse
+Hay que ajustarse
+Hay que ajustarse
+Hay que ajustarse
+Hay que ajustarse
+</p>    
+
+<hr>
+<p class="text-lowercase">Eso va en minuscula</p>    
+<hr>
+<p class="text-uppercase">Eso va en Mayusculas.</p>    
+<hr>
+<p class="text-capitalize">Eso va capitalizado.</p>    
+<hr>
+<p class="mark">Tamo en marca</p>    
+<p>Nos fuimos con <kbd>Lebron</kbd></p>
+
+
+</body>
+</html>
